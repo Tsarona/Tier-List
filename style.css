@@ -1,0 +1,89 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 13%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.headerContainer {
+  display: flex;
+}
+
+#addCard {
+  background: none;
+  border: none;
+  font-size: 40px;
+}
+
+  #board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 70vh;
+    background-color: #AB4949;
+    padding: 10px;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+    height: 13%;
+    background-color: blanchedalmond;
+  }
+  
+  .label {
+    display: flex;
+    height: 100%;
+    width: 70px;
+    background-color: #138563
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 70px;
+    background-color: hsla(235, 15%, 31%, 1);
+    border: 1px solid black;
+    animation: card 5s 1s infinite;
+  }
+  @keyframes card {
+    0%{
+      background-color: deeppink;
+    }
+    15% {
+      background-color: powderblue;
+    }
+    25% {
+      background-color: darkcyan;
+    }
+    35% {
+      background-color: darkmagenta;
+    }
+    45% {
+      background-color: black;
+    }
+    55% {
+      background-color: seagreen;
+    }
+    65% {
+      background-color: floralwhite;
+    }
+    75% {
+      background-color: olivedrab;
+    }
+    85% {
+      background-color: red;
+    }
+    95% {
+      background-color: yellow;
+    }
+  }
+  
+  
